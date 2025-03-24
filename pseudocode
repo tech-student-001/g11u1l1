@@ -1,0 +1,9 @@
+START
+  INPUT num1, num2
+  IF num2 ≤ num1 THEN
+    result = num1 - num2
+    PRINT "Result:", result
+  ELSE
+    PRINT "Error: Second number must be smaller than or equal to the first number."
+  ENDIF
+END
